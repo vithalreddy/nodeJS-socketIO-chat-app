@@ -16,10 +16,10 @@ Lot more features to be added soon.
     1). Group Chat. 
     2). One to One chat.
     3). Chat messages saved in mongodb.
-	4). Login / Logout feature.
-	5). Shows which User is typing  and which user is logged in and logged out.
-	6). User connected and disconnected feature.
-	7). clean ui and ux.
+    4). Login / Logout feature.
+    5). Shows which User is typing  and which user is logged in and logged out.
+    6). User connected and disconnected feature.
+    7). clean ui and ux.
  ```
 
 ## Prerequisites
