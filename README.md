@@ -1,4 +1,4 @@
-# Socket.Io Reatltime Chat App | A MEAN stack based Real Time chat application
+# Socket.Io Real-time Chat App | A MEAN stack based Real Time chat application
 
 
 ## Description
@@ -16,7 +16,7 @@ Lot more features to be added soon.
     1). Group Chat. 
     2). One to One chat.
     3). Chat messages saved in mongodb.
-	4). Login / Logout feature..
+	4). Login / Logout feature.
 	5). Shows which User is typing  and which user is logged in and logged out.
 	6). User connected and disconnected feature.
 	7). clean ui and ux.
