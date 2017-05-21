@@ -1,0 +1,21 @@
+<header>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a href="/" class="boxN">Real Time Socket.IO  Chat App </a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+        <li class="boxF"><a href="/">Home</a></li>
+        <li class="boxF"><a href="/chat">Chat</a></li>
+        <% if(user){ %>
+          <li  class="boxF"><a href=""><span id="totalOnline" class="badge">0</span>  User's Online</a></li>
+          <li  class="boxF"><a href="#">Hello, <%= user.username %></a></li>
+          <li  class="boxF"><a href="/user/logout">Logout</a></li>
+        <% } else{ %>
+          <li class="boxF"><a href="/user/login">Login</a></li>
+          <li class="boxF"><a href="/user/signup">Signup</a></li>
+        <% } %>
+      </ul>
+    </div>
+  </nav>
+</header>

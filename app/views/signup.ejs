@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ./parts/head.ejs %>
+</head>
+<body>
+  <% include ./parts/header.ejs %>
+
+  <main>
+    <div class="login-box">
+      <br>
+         <p><b>Sign Up</b></p>
+         <br>
+         <span class="input-icon" ><i class="icon_profile"></i></span><hr>
+      <form class="signup-form" action="/user/api/v1/signup" method="post">
+        <p id="error1"></p>
+        <div class="input-block">
+          <p>Username:</p>
+          <input id="uname" class="input-box" type="text" name="username" placeholder="Username" autofocus autocomplete="off" required/>
+          <span id="ik" class="glyphicon glyphicon-ok"></span>
+          <span id="ir" class="glyphicon glyphicon-remove"></span>
+        </div>
+        <div class="input-block">
+          <p>Email:</p>
+          <input id="email" class="input-box" type="email" name="email" placeholder="Email" autocomplete="off" required/>
+          <span id="ik1" class="glyphicon glyphicon-ok"></span>
+          <span id="ir1" class="glyphicon glyphicon-remove"></span>
+        </div>
+        <div class="input-block">
+          <p>Password:</p>
+          <input id="pass" class="input-box" type="password" name="password" placeholder="Password" required/>
+          <span id="ik2" class="glyphicon glyphicon-ok"></span>
+          <span id="ir2" class="glyphicon glyphicon-remove"></span>
+        </div><br>
+        <button class="btn btn-primary btn-block btn-lg" type="submit" name="submit">Signup</button><br>
+        <p><b>Have an account?</b> </p>
+        <a href="/user/login"  class="btn btn-danger btn-lg btn-block"><b>Log In Here</b></a><br>
+      </form>
+    </div>
+  </main>
+
+  <% include ./parts/footer.ejs %>
+
+  <script src="/js/scriptForSignup.js"></script>
+</body>
+</html>
