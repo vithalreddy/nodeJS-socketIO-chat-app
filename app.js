@@ -20,7 +20,7 @@ require('./libs/chat.js').sockets(http);
 app.use(logger('dev'));
 
 //db connection
-var dbPath = "mongodb://<vmreddy>:<reddys944>@ds149511.mlab.com:49511/socketionodejschat";
+var dbPath = "mongodb://<XXXX>:<XXXX>@ds149511.mlab.com:49511/socketionodejschat";
 mongoose.connect(dbPath);
 mongoose.connection.once('open',function(){
   console.log("Database Connection Established Successfully.");
