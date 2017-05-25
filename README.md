@@ -34,6 +34,13 @@ NPM
 
 MongoDB
 
+## Online demo: 
+```
+    1). Go to http://socketiochatapp.tk/user/signup link and signup
+    2). Login @ http://socketiochatapp.tk/user/login
+    3). Chat with group or one-to-one.
+```
+
 ## Running
 
 (Note: these instructions are for Ubuntu Linux based OS. Assuming nodejs, npm and mongodb is already installed).
