@@ -1,6 +1,4 @@
 var express = require('express');
-var app =express();
-var http =require('http').Server(app);
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser');
@@ -10,6 +8,10 @@ var methodOverride = require('method-override');
 var path = require('path');
 var fs = require('fs');
 var logger = require('morgan');
+
+
+var app =express();
+var http =require('http').Server(app);
 
 //port setup
 var port = process.env.PORT || 5000;
